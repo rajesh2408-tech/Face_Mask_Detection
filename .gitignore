@@ -1,0 +1,33 @@
+# Virtual environment
+.venv/
+venv/
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# macOS
+.DS_Store
+
+# IDE
+.vscode/
+.idea/
+
+# Flask generated uploads
+static/uploads/*
+
+# Keep uploads directory
+!static/uploads/.gitkeep
+
+# Logs
+*.log
+
+# Environment variables / secrets
+.env
+.env.*
+
+# Jupyter
+.ipynb_checkpoints/
+
+# TensorFlow temporary files
+*.tmp
